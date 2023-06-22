@@ -20,7 +20,7 @@ export default function Footer() {
                     <div className={`${styles.column1} ${styles.column} ${styles.flexColumn}`}>
                         <Link to={'/'} className={styles.headerLogoContainer} onClick={scrollToTop}>
                             <StaticImage
-                                src="https://res.cloudinary.com/dg8awj55m/image/upload/v1683643626/website-lending/electricien-nimes/logos/logo-main.png"
+                                src="https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1686435004/website-lending/plombier-meudon/logos/logo_main.png"
                                 alt="Logo Electricien Nîmes"
                                 height={45}
                             />
@@ -40,14 +40,11 @@ export default function Footer() {
                     </div>
                     <div className={`${styles.column} ${styles.flexColumn}`}>
                         <Link to={'/services'} className={styles.columnTitle}>Services</Link>
-                        <Link to={'/services/installation-electrique'} className={styles.columnLink}>Installation</Link>
-                        <Link to={'/services/renovation-et-mise-aux-normes'} className={styles.columnLink}>Rénovation et
-                            mise aux normes</Link>
-                        <Link to={'/services/depannage-et-maintenance'} className={styles.columnLink}>Dépannage et
-                            maintenance</Link>
-                        <Link to={'/services/eclairage'} className={styles.columnLink}>Éclairage</Link>
-                        <Link to={'/services/domotique-et-objets-connectes'} className={styles.columnLink}>Domotique et
-                            objets connectés</Link>
+                        <Link to={'/services/installation'} className={styles.columnLink}>Installation</Link>
+                        <Link to={'/services/reparation-et-depannage'} className={styles.columnLink}>Réparation et Dépannage</Link>
+                        <Link to={'/services/entretien-et-maintenance'} className={styles.columnLink}>Entretien et Maintenance</Link>
+                        <Link to={'/services/nettoyage'} className={styles.columnLink}>Nettoyage</Link>
+                        <Link to={'/services/renovation'} className={styles.columnLink}>Rénovation</Link>
                     </div>
                     <div className={`${styles.column} ${styles.flexColumn}`}>
                         <Link to={'/realisations'} className={styles.columnTitle}>Réalisations</Link>
@@ -70,7 +67,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles.footerCopyrights}>
-                    © {new Date().getFullYear()}, Electricien Nîmes | <Link to='/mentions-legales'>Mentions Légales</Link>
+                    © {new Date().getFullYear()}, Plombier Meudon | <Link to='/mentions-legales'>Mentions Légales</Link>
                 </div>
             </div>
         </section>

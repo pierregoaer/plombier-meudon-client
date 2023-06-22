@@ -18,14 +18,12 @@ export default function Testimonials({testimonials}) {
             <div className={`section-inner secondary-section-padding ${styles.testimonialsMain}`}>
                 <div className={styles.testimonialsText}>
                     <h2>Nos clients sont satisfaits</h2>
-                    <p>En tant qu'électricien à Nîmes, nous sommes fiers de vous présenter nos réalisations en matière
-                        de projets résidentiels. La satisfaction de nos clients est notre priorité. Nous mettons tout en
-                        œuvre pour vous offrir un service de qualité, adapté à vos besoins et à vos attentes.</p>
-                    <p>N'hésitez pas à nous contacter pour discuter de votre projet résidentiel et obtenir un devis
-                        personnalisé. En choisissant notre entreprise d'électriciens à Nîmes, vous bénéficierez d'une
-                        expertise reconnue et d'un accompagnement personnalisé tout au long de votre projet. Ensemble,
-                        concrétisons vos projets électriques et assurons la sécurité, la performance et le confort de
-                        votre habitation !</p>
+                    <p>Découvrez ce que nos clients ont à dire sur nos services de plomberie. Nous sommes fiers de
+                        travailler avec eux et partager leurs avis positifs.</p>
+                    <p>Leur expérience reflète notre engagement de vous fournir un service de qualité, notre réactivité et notre
+                        professionnalisme. Nous sommes reconnaissants envers nos clients pour leur confiance et nous
+                        vous invitons à vous joindre à eux en choisissant notre expertise pour tous vos besoins en
+                        plomberie.</p>
                 </div>
                 <ul className={styles.testimonialsList}>
                     {testimonialElements}

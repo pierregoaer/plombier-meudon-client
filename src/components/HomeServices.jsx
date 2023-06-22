@@ -12,33 +12,39 @@ export default function HomeServices() {
                     <Link to="/services">
                         <h2>Nos Services</h2>
                     </Link>
-                    <p>Intervention chez professionnels et particuliers dans la région de Nîmes, notre équipe d'experts
-                        en électricité est là pour répondre au mieux à vos besoins.</p>
+                    <p>Intervention chez professionnels et particuliers à Meudon et ses alentours, notre équipe
+                        d'experts
+                        plombiers est là pour répondre au mieux à vos besoins:</p>
                 </div>
                 <div className={styles.homeServicesGrid}>
                     <div className={styles.homeServicesServiceContainer}>
                         <StaticImage
-                            src='https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image-small.webp'
+                            src='https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1686435663/website-lending/plombier-meudon/images/background-image-small.png'
                             alt="Image de fond"
                             style={{position: 'absolute'}}
                             className='background-image'
                         />
                         <div className={styles.homeServicesService}>
                             <div className={styles.homeServicesServiceIcon}>
-                                <svg viewBox="0 0 1024 1024">
-                                    <path
-                                        d="M829.44 911.36c45.245 0 81.92-36.675 81.92-81.92V194.56c0-45.245-36.675-81.92-81.92-81.92H194.56c-45.245 0-81.92 36.675-81.92 81.92v634.88c0 45.245 36.675 81.92 81.92 81.92h634.88zm0 40.96H194.56c-67.866 0-122.88-55.014-122.88-122.88V194.56c0-67.866 55.014-122.88 122.88-122.88h634.88c67.866 0 122.88 55.014 122.88 122.88v634.88c0 67.866-55.014 122.88-122.88 122.88z"/>
-                                    <path
-                                        d="M727.746 234.526l-.358.247c.12-.078.239-.16.358-.247zm-304.56 198.992l53.506 34.806c9.143 5.947 12.02 18.016 6.545 27.449L322.853 772.067l277.96-181.589-53.507-34.807c-9.143-5.947-12.02-18.016-6.545-27.449l160.378-276.284-277.953 181.579zm-48.67 17.204c-12.402-8.068-12.42-26.221-.033-34.313L704.13 201.06c29.158-20.549 66.411 12.954 48.276 44.151l-166.448 286.74 63.524 41.323c12.402 8.068 12.42 26.221.034 34.313L319.883 822.934c-29.153 20.564-66.398-12.925-48.29-44.148l166.448-286.74-63.524-41.323z"/>
+                                <svg viewBox="0 0 512.000000 512.000000">
+                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
+                                        <path
+                                            d="M725 5105 c-175 -38 -325 -156 -405 -318 -64 -130 -60 27 -60 -2234 l0 -2062 -29 -15 c-15 -8 -43 -32 -60 -52 -40 -45 -171 -307 -171 -341 0 -14 13 -37 29 -54 l29 -29 1052 0 1052 0 29 29 c16 16 29 40 29 53 -1 13 -38 95 -83 183 -72 140 -88 164 -130 195 l-47 35 0 987 0 988 939 0 939 0 4 -113 c3 -107 5 -116 31 -150 57 -75 36 -72 568 -72 l475 0 41 27 c61 40 73 75 73 216 0 118 0 120 26 137 52 34 64 82 64 276 0 200 -15 284 -72 392 -48 92 -165 205 -258 251 -141 69 -73 66 -1523 66 l-1308 0 3 373 c3 366 3 373 26 419 13 26 40 61 59 79 78 68 7 63 1083 69 l975 5 50 25 c64 31 134 101 165 165 34 69 36 207 4 276 -26 55 -85 123 -135 155 -91 57 3 54 -1773 53 -1308 0 -1643 -3 -1691 -14z m3351 -174 c127 -58 138 -231 19 -298 l-40 -23 -935 0 c-803 0 -944 -2 -1000 -16 -110 -26 -197 -88 -261 -187 -58 -90 -69 -156 -69 -426 l0 -231 -680 0 -681 0 3 443 3 442 33 68 c58 118 162 203 287 233 38 9 432 12 1665 13 1557 1 1616 0 1656 -18z m-2286 -2886 l0 -1535 -680 0 -680 0 0 1535 0 1535 680 0 680 0 0 -1535z m2880 1257 c114 -46 208 -141 251 -249 20 -50 23 -81 27 -230 l4 -173 -1496 0 -1496 0 0 340 0 340 1328 -2 1327 -3 55 -23z m190 -917 l0 -85 -425 0 -425 0 0 85 0 85 425 0 425 0 0 -85z m-2959 -2055 c16 -9 89 -136 89 -155 0 -3 -396 -5 -880 -5 -484 0 -880 2 -880 5 0 18 73 146 87 154 25 14 1557 15 1584 1z"/>
+                                        <path
+                                            d="M625 3385 c-24 -23 -25 -30 -25 -143 0 -105 2 -121 20 -140 41 -44 110 -35 137 18 16 32 17 213 1 243 -28 53 -92 64 -133 22z"/>
+                                        <path
+                                            d="M625 2875 l-25 -24 0 -676 c0 -659 0 -675 20 -695 43 -43 110 -34 137 20 10 19 13 177 13 683 l0 659 -29 29 c-38 37 -82 39 -116 4z"/>
+                                        <path
+                                            d="M4405 1870 c-46 -18 -261 -278 -377 -454 -265 -406 -335 -737 -213 -1013 78 -176 246 -321 440 -379 93 -28 278 -26 375 4 115 36 195 86 286 176 90 91 140 171 176 286 32 104 32 287 -1 408 -62 235 -199 482 -412 747 -110 137 -209 235 -236 234 -10 0 -27 -4 -38 -9z m116 -301 c207 -253 341 -486 401 -697 33 -116 31 -273 -5 -365 -57 -145 -160 -249 -302 -302 -133 -50 -268 -43 -400 20 -129 62 -214 160 -263 299 -22 63 -24 82 -20 186 4 99 10 130 41 222 42 125 87 217 169 347 87 139 276 381 297 381 4 0 41 -41 82 -91z"/>
+                                    </g>
                                 </svg>
                             </div>
                             <h3>Installation</h3>
-                            <p>Nous prenons en charge l'installation électrique de votre habitation ou de vos locaux
-                                professionnels, qu'il s'agisse d'une construction neuve, d'une rénovation ou d'une
-                                extension. Nos électriciens à Nîmes réalisent des installations conformes à la norme NF
-                                C
-                                15-100, en tenant compte de vos besoins et de vos contraintes.</p>
-                            <Link to={'/services/installation-electrique'}
+                            <p>Une installation de
+                                première classe.! Nos services comprennent l'installation d'éviers, de robinets, de
+                                toilettes, de douches, de baignoires, de chauffe-eau et plus encore. Nous sommes là pour installer tous vos
+                                équipements de manière professionnelle et efficace. </p>
+                            <Link to={'/services/installation'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services d'installation
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -50,30 +56,144 @@ export default function HomeServices() {
                     </div>
                     <div className={styles.homeServicesServiceContainer}>
                         <StaticImage
-                            src='https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image-small.webp'
+                            src='https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1686435663/website-lending/plombier-meudon/images/background-image-small.png'
                             alt="Image de fond"
                             style={{position: 'absolute'}}
                             className='background-image'
                         />
                         <div className={styles.homeServicesService}>
                             <div className={styles.homeServicesServiceIcon}>
-                                <svg viewBox="0 0 24 24">
-                                    <path
-                                        d="M18.4721 16.7023C17.3398 18.2608 15.6831 19.3584 13.8064 19.7934C11.9297 20.2284 9.95909 19.9716 8.25656 19.0701C6.55404 18.1687 5.23397 16.6832 4.53889 14.8865C3.84381 13.0898 3.82039 11.1027 4.47295 9.29011C5.12551 7.47756 6.41021 5.96135 8.09103 5.02005C9.77184 4.07875 11.7359 3.77558 13.6223 4.16623C15.5087 4.55689 17.1908 5.61514 18.3596 7.14656C19.5283 8.67797 20.1052 10.5797 19.9842 12.5023M19.9842 12.5023L21.4842 11.0023M19.9842 12.5023L18.4842 11.0023"
-                                        strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
-                                    <path d="M12 8V12L15 15" strokeWidth="1" strokeLinecap="round"
-                                          strokeLinejoin="round"/>
+                                <svg viewBox="0 0 512.000000 512.000000">
+
+                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
+                                        <path
+                                            d="M356 4669 l-26 -20 0 -1079 0 -1079 26 -20 c26 -20 39 -21 306 -21 l279 0 24 25 c22 22 25 32 25 105 l0 80 1570 0 1570 0 0 -71 c0 -71 10 -104 39 -126 12 -9 91 -12 296 -12 294 0 299 0 323 46 17 31 17 2115 0 2146 -24 46 -29 46 -323 46 -205 0 -284 -3 -296 -12 -29 -22 -39 -55 -39 -126 l0 -71 -1570 0 -1570 0 0 80 c0 73 -3 83 -25 105 l-24 25 -279 0 c-267 0 -280 -1 -306 -21z m474 -1099 l0 -960 -170 0 -170 0 0 960 0 960 170 0 170 0 0 -960z m3810 0 l0 -960 -175 0 -175 0 0 960 0 960 175 0 175 0 0 -960z m-510 0 l0 -750 -725 0 -725 0 0 109 c0 59 -5 121 -10 138 -7 19 -57 70 -135 138 l-124 109 22 35 c12 20 54 86 93 146 l72 110 212 79 c116 44 222 88 236 98 28 23 32 72 9 105 -30 43 -58 38 -280 -47 l-210 -80 -34 37 c-169 186 -187 203 -221 203 -45 0 -80 -33 -80 -77 0 -28 16 -50 106 -148 l107 -115 -53 -83 c-29 -45 -69 -108 -89 -139 l-36 -58 -79 0 c-96 0 -126 -19 -126 -80 0 -59 25 -73 133 -80 l92 -5 118 -105 117 -104 0 -93 0 -93 -765 0 -765 0 0 750 0 750 1570 0 1570 0 0 -750z"/>
+                                        <path
+                                            d="M2527 2430 c-52 -41 -238 -381 -284 -520 -12 -38 -18 -85 -18 -150 0 -89 2 -99 34 -158 41 -75 94 -125 170 -161 47 -22 70 -26 146 -26 76 0 99 4 146 26 77 36 130 87 169 161 28 53 35 76 38 143 4 70 0 92 -26 172 -49 144 -203 434 -270 506 -31 32 -69 35 -105 7z m109 -312 c32 -56 74 -141 93 -188 31 -72 36 -96 36 -161 0 -63 -4 -81 -24 -111 -43 -62 -85 -83 -166 -83 -62 0 -77 4 -112 28 -22 15 -50 46 -62 68 -48 84 -13 225 109 442 34 59 63 107 65 107 2 0 30 -46 61 -102z"/>
+                                        <path
+                                            d="M1900 1507 c-59 -30 -228 -340 -266 -487 -29 -114 0 -221 82 -302 115 -115 311 -117 427 -5 144 141 123 328 -77 657 -83 136 -115 163 -166 137z m90 -328 c91 -177 108 -254 70 -317 -56 -92 -197 -97 -255 -8 -28 42 -29 95 -5 166 24 71 119 260 131 260 4 0 30 -45 59 -101z"/>
+                                        <path
+                                            d="M3143 1512 c-29 -4 -50 -32 -134 -174 -121 -204 -198 -382 -213 -493 -19 -142 62 -293 196 -366 60 -33 67 -34 168 -34 95 0 111 3 162 28 71 35 140 104 176 176 24 50 27 66 26 156 0 84 -5 112 -28 175 -54 144 -215 439 -273 502 -27 28 -46 36 -80 30z m94 -352 c147 -265 169 -400 79 -498 -89 -99 -255 -83 -330 31 -48 75 -43 148 21 302 36 87 146 285 157 282 5 -2 38 -54 73 -117z"/>
+                                    </g>
                                 </svg>
                             </div>
-                            <h3>Rénovation et mise aux normes</h3>
-                            <p>Nous vous accompagnons dans la mise aux normes de votre installation électrique pour
-                                assurer
-                                la sécurité de votre habitation ou de vos locaux professionnels. Nos électriciens à
-                                Nîmes
-                                vérifient la conformité de vos équipements et réalisent les travaux nécessaires pour
-                                vous
-                                garantir une installation sécurisée et performante.</p>
+                            <h3>Réparation et Dépannage</h3>
+                            <p>Une intervention en moins de 2 heures ! Les problèmes de plomberie peuvent survenir, nous sommes
+                                là pour vous aider à les résoudre. Nos plombiers qualifiés sont experts dans la
+                                réparation de fuites, de robinets défectueux, de chauffe-eau
+                                défaillants et de tout autre problème que vous pourriez rencontrer.</p>
                             <Link to={'/services/renovation-et-mise-aux-normes'}
+                                  className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
+                                Voir nos services de réparation et dépannage
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"></path>
+                                </svg>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className={styles.homeServicesServiceContainer}>
+                        <StaticImage
+                            src='https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1686435663/website-lending/plombier-meudon/images/background-image-small.png'
+                            alt="Image de fond"
+                            style={{position: 'absolute'}}
+                            className='background-image'
+                        />
+                        <div className={styles.homeServicesService}>
+                            <div className={styles.homeServicesServiceIcon}>
+                                <svg viewBox="0 0 512.000000 512.000000">
+                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
+                                        <path
+                                            d="M1520 4954 c-187 -35 -299 -76 -425 -158 -148 -97 -266 -230 -347 -391 -39 -77 -88 -222 -88 -261 0 -17 -5 -24 -19 -24 -35 0 -74 -43 -74 -80 0 -55 38 -80 124 -80 l69 0 0 -174 c0 -110 6 -205 15 -261 63 -358 352 -647 710 -710 355 -62 711 96 899 398 104 166 136 302 136 573 l0 174 234 0 c221 0 235 1 260 21 37 29 37 89 0 118 -25 20 -40 21 -210 21 l-184 0 0 24 c0 39 -49 184 -88 261 -133 266 -368 454 -657 526 -77 20 -297 34 -355 23z m289 -174 c178 -36 359 -146 476 -288 80 -96 175 -292 175 -359 0 -11 -148 -13 -820 -13 -672 0 -820 2 -820 13 0 32 35 129 76 207 174 338 544 516 913 440z m549 -1027 c-4 -188 -7 -215 -30 -285 -39 -119 -92 -204 -182 -294 -90 -90 -175 -143 -294 -182 -67 -22 -94 -26 -212 -26 -118 0 -145 4 -212 26 -119 39 -204 92 -294 182 -90 90 -143 175 -182 294 -23 70 -26 97 -30 285 l-4 207 722 0 722 0 -4 -207z"/>
+                                        <path
+                                            d="M4049 4634 c-9 -3 -46 -40 -81 -82 -326 -391 -488 -679 -488 -867 1 -258 186 -495 445 -571 80 -23 230 -23 310 0 248 73 422 284 442 533 8 104 -12 177 -86 328 -86 174 -257 418 -429 612 -36 42 -75 58 -113 47z m113 -296 c179 -228 326 -475 350 -592 35 -165 -77 -370 -245 -450 -260 -123 -571 41 -620 328 -19 115 21 232 150 431 95 148 267 375 283 375 5 0 41 -42 82 -92z"/>
+                                        <path
+                                            d="M3664 2846 c-91 -48 -155 -99 -229 -179 -322 -347 -309 -886 29 -1217 l66 -65 0 -588 0 -588 25 -24 24 -25 501 0 501 0 24 25 25 24 0 588 0 588 66 65 c338 331 351 870 28 1218 -103 112 -256 212 -324 212 -30 0 -70 -29 -70 -52 -1 -7 -2 -161 -3 -341 -2 -312 -3 -329 -21 -343 -29 -20 -423 -20 -452 0 -18 14 -19 31 -21 343 -2 180 -3 334 -3 341 0 24 -40 52 -72 52 -18 0 -61 -15 -94 -34z m23 -737 c19 -44 75 -101 118 -120 35 -16 69 -19 275 -19 206 0 240 3 275 19 43 19 99 76 118 120 7 16 13 123 17 290 l5 264 45 -38 c191 -159 289 -419 250 -662 -26 -167 -91 -286 -227 -420 l-93 -91 0 -566 0 -566 -390 0 -390 0 0 566 0 567 -89 86 c-48 47 -104 111 -124 142 -196 308 -138 700 140 940 l48 42 5 -264 c4 -167 10 -274 17 -290z"/>
+                                        <path
+                                            d="M1112 2710 c-232 -32 -461 -146 -628 -314 -120 -121 -202 -249 -258 -406 -61 -169 -59 -136 -63 -993 l-4 -787 25 -25 25 -25 1431 0 1431 0 25 25 25 25 -4 787 c-4 857 -2 824 -63 993 -56 157 -138 285 -258 406 -141 142 -307 236 -515 292 l-96 26 -505 2 c-278 1 -533 -2 -568 -6z m130 -378 l3 -228 37 -76 c45 -91 103 -147 196 -191 61 -29 76 -32 162 -32 86 0 101 3 162 32 93 44 151 100 196 191 l37 76 3 228 c4 226 4 228 25 228 37 0 149 -20 205 -36 l52 -15 0 -1094 0 -1095 -100 0 -100 0 0 499 0 500 -24 28 -24 28 -432 0 -432 0 -24 -28 -24 -28 0 -500 0 -499 -100 0 -100 0 0 1094 0 1094 36 12 c45 15 168 38 211 39 l31 1 4 -228z m638 32 c0 -235 -6 -260 -75 -329 -101 -102 -229 -102 -330 0 -69 69 -75 94 -75 329 l0 196 240 0 240 0 0 -196z m-1080 -454 l0 -530 -241 0 -242 0 6 198 c4 159 10 213 27 277 45 166 131 314 252 431 57 56 180 152 196 154 1 0 2 -238 2 -530z m1868 386 c131 -126 220 -276 263 -448 16 -65 22 -125 26 -275 l5 -193 -241 0 -241 0 0 530 0 530 53 -32 c28 -18 89 -68 135 -112z m-1868 -1526 l0 -450 -240 0 -240 0 0 450 0 450 240 0 240 0 0 -450z m1160 0 l0 -450 -320 0 -320 0 0 450 0 450 320 0 320 0 0 -450z m1000 0 l0 -450 -240 0 -240 0 0 450 0 450 240 0 240 0 0 -450z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <h3>Entretien et Maintenance</h3>
+                            <p>L'entretien régulier de votre plomberie est crucial pour éviter les problèmes potentiels.
+                                Cela permet de maintenir l'efficacité et sécurité de votre système ainsi que de
+                                prolonger la durée de vie de votre installation.</p>
+                            <Link to={'/services/entretien-et-maintenance'}
+                                  className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
+                                Voir nos services d'entretien et maintenance
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"></path>
+                                </svg>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className={styles.homeServicesServiceContainer}>
+                        <StaticImage
+                            src='https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1686435663/website-lending/plombier-meudon/images/background-image-small.png'
+                            alt="Image de fond"
+                            style={{position: 'absolute'}}
+                            className='background-image'
+                        />
+                        <div className={styles.homeServicesService}>
+                            <div className={styles.homeServicesServiceIcon}>
+                                <svg viewBox="0 0 512.000000 512.000000">
+                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
+                                        <path
+                                            d="M1010 4845 c-503 -151 -926 -283 -940 -293 -14 -10 -35 -38 -48 -63 l-23 -44 4 -880 c5 -963 3 -943 67 -1181 76 -286 207 -516 420 -737 208 -217 428 -371 753 -527 245 -117 639 -260 720 -260 50 0 399 115 420 138 9 10 19 32 23 48 8 39 -35 94 -73 94 -15 0 -104 -25 -199 -57 l-173 -56 -139 46 c-703 232 -1178 559 -1427 982 -99 167 -156 323 -197 540 -20 105 -21 146 -25 965 l-4 855 228 67 c125 37 529 158 897 267 l670 200 893 -266 893 -267 0 -814 0 -814 29 -29 c16 -16 39 -29 51 -29 29 0 76 26 86 47 10 21 18 1565 9 1640 -3 29 -16 66 -28 84 -46 67 60 32 -1322 445 -308 92 -580 168 -605 170 -36 3 -232 -53 -960 -271z"/>
+                                        <path
+                                            d="M1165 4534 c-669 -200 -783 -237 -802 -259 l-23 -26 0 -693 c0 -815 7 -917 77 -1141 161 -511 629 -899 1401 -1161 l142 -48 144 47 c79 26 151 56 160 65 30 34 31 75 1 110 -35 41 -52 41 -192 -5 l-113 -37 -98 33 c-711 245 -1141 602 -1286 1069 -58 186 -59 207 -63 969 l-4 701 33 11 c107 34 1414 421 1422 421 6 0 333 -96 726 -214 l715 -213 5 -679 c3 -373 9 -686 13 -695 10 -20 50 -39 81 -39 13 0 35 11 50 25 l26 24 0 729 c0 680 -1 731 -17 751 -18 21 -37 27 -1312 407 -156 46 -288 84 -295 83 -6 0 -362 -106 -791 -235z"/>
+                                        <path
+                                            d="M1911 4333 c-16 -13 -31 -54 -56 -155 -103 -413 -279 -766 -515 -1033 -96 -108 -152 -201 -192 -315 -30 -89 -32 -104 -33 -230 0 -162 14 -223 82 -360 88 -177 273 -331 479 -399 425 -142 901 50 1074 433 49 108 64 180 64 311 0 132 -17 216 -64 322 -36 79 -68 126 -169 243 -235 273 -410 624 -507 1014 -38 155 -56 186 -110 186 -17 0 -41 -8 -53 -17z m116 -583 c97 -251 254 -515 423 -710 106 -122 140 -177 171 -280 27 -88 31 -223 10 -310 -53 -220 -232 -393 -478 -462 -109 -30 -267 -30 -377 1 -357 100 -560 418 -476 745 26 104 69 180 158 284 201 234 354 494 463 790 40 107 44 113 52 86 5 -16 29 -81 54 -144z"/>
+                                        <path
+                                            d="M1502 2635 c-63 -28 -66 -115 -6 -235 72 -142 261 -260 419 -260 64 0 93 20 101 72 5 30 2 41 -19 62 -14 14 -42 27 -63 31 -172 26 -294 123 -310 245 -10 76 -61 111 -122 85z"/>
+                                        <path
+                                            d="M3700 2554 c-201 -26 -408 -102 -565 -207 -83 -56 -108 -77 -203 -170 -172 -170 -294 -396 -348 -647 -26 -119 -26 -381 0 -500 110 -512 494 -896 1006 -1006 119 -26 381 -26 500 0 446 96 802 404 955 826 94 260 97 564 10 827 -67 201 -160 351 -314 504 -182 182 -382 293 -631 350 -83 19 -331 33 -410 23z m401 -197 c215 -56 364 -140 520 -296 114 -114 185 -218 240 -350 287 -690 -168 -1455 -913 -1533 -620 -66 -1179 414 -1215 1042 -24 426 207 835 587 1038 96 51 224 96 320 112 41 6 82 13 90 15 8 2 74 2 145 0 95 -3 156 -10 226 -28z"/>
+                                        <path
+                                            d="M4489 1696 c-14 -7 -240 -192 -501 -410 -262 -218 -480 -396 -484 -396 -5 0 -76 68 -159 150 -137 135 -155 150 -186 150 -56 -1 -97 -48 -84 -98 7 -31 343 -375 389 -399 15 -8 38 -12 51 -9 36 9 1068 873 1082 906 18 42 -1 88 -43 106 -40 17 -33 17 -65 0z"/>
+                                    </g>
+                                </svg>
+
+                            </div>
+                            <h3>Nettoyage</h3>
+                            <p>Vous avez des canalisations bouchées ou obstruées ? Que ce soit pour les éviers, les
+                                douches, les toilettes ou tout autre canalisation, nettoyer des drains bouchés aide à
+                                rétablir un bon débit d'eau et empêche les
+                                refoulements ou les inondations.</p>
+                            <Link to={'/services/nettoyage'}
+                                  className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
+                                Voir nos services de nettoyage
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"></path>
+                                </svg>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className={styles.homeServicesServiceContainer}>
+                        <StaticImage
+                            src='https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1686435663/website-lending/plombier-meudon/images/background-image-small.png'
+                            alt="Image de fond"
+                            style={{position: 'absolute'}}
+                            className='background-image'
+                        />
+                        <div className={styles.homeServicesService}>
+                            <div className={styles.homeServicesServiceIcon}>
+                                <svg viewBox="0 0 512.000000 512.000000">
+                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
+                                        <path
+                                            d="M2365 5114 c-16 -2 -73 -9 -125 -15 -309 -35 -662 -152 -940 -311 -705 -404 -1157 -1071 -1277 -1883 -22 -149 -24 -522 -4 -665 40 -291 119 -550 247 -808 72 -147 90 -176 116 -186 57 -24 109 5 110 62 1 18 -16 61 -40 105 -315 574 -377 1276 -169 1900 174 518 496 940 952 1245 120 80 365 206 490 251 532 192 1082 199 1609 21 211 -71 352 -141 555 -274 l123 -81 -142 -10 c-131 -9 -143 -12 -161 -34 -10 -13 -19 -36 -19 -53 0 -35 40 -78 72 -78 13 0 128 5 257 10 220 9 236 11 258 32 14 13 23 33 23 52 0 38 -117 453 -137 484 -33 53 -105 50 -134 -5 -12 -22 -10 -36 10 -111 40 -148 46 -142 -65 -69 -359 234 -731 368 -1153 412 -121 13 -376 18 -456 9z"/>
+                                        <path
+                                            d="M2459 4114 c-52 -18 -1433 -1014 -1511 -1090 -67 -65 -91 -133 -86 -239 5 -95 28 -147 94 -211 64 -61 138 -87 234 -82 55 4 89 12 127 31 29 15 55 27 57 27 3 0 7 -282 8 -627 l3 -628 28 -57 c56 -115 161 -202 281 -234 74 -20 1657 -20 1731 0 140 37 249 138 296 273 18 53 19 88 19 665 0 334 2 608 5 608 3 0 29 -12 58 -27 74 -37 180 -43 259 -13 66 24 135 86 170 151 19 37 23 59 23 139 0 107 -19 160 -78 221 -44 45 -1424 1047 -1484 1078 -61 31 -168 38 -234 15z m213 -189 c572 -409 1395 -1016 1410 -1040 25 -41 24 -120 -2 -163 -32 -52 -75 -74 -141 -70 l-56 4 -623 453 c-343 250 -639 463 -658 474 -29 17 -39 19 -63 10 -16 -6 -315 -220 -666 -474 l-636 -463 -56 -4 c-66 -4 -109 18 -141 70 -26 43 -27 122 -2 163 12 19 287 225 721 540 386 281 716 518 734 528 50 28 114 18 179 -28z m398 -876 l510 -370 0 -665 c0 -719 2 -694 -54 -767 -14 -19 -50 -47 -78 -63 l-53 -29 -212 -3 -212 -3 -3 563 c-3 555 -3 564 -25 603 -25 47 -64 85 -113 111 -31 17 -60 19 -270 19 -210 0 -239 -2 -270 -19 -49 -26 -88 -64 -113 -111 -22 -39 -22 -48 -25 -603 l-3 -563 -212 3 -212 3 -53 29 c-28 16 -64 44 -78 63 -56 74 -54 47 -52 769 l3 666 505 368 c278 203 506 369 507 369 2 1 232 -166 513 -370z m-307 -770 c14 -6 30 -22 36 -36 8 -16 11 -188 11 -558 l0 -535 -250 0 -250 0 0 535 c0 371 3 542 11 559 6 13 21 29 33 34 29 15 378 15 409 1z"/>
+                                        <path
+                                            d="M4670 3877 c-14 -7 -31 -25 -38 -41 -13 -26 -10 -36 56 -169 124 -249 181 -413 227 -649 112 -574 4 -1192 -295 -1688 -294 -489 -762 -867 -1292 -1044 -268 -89 -465 -120 -763 -120 -244 0 -366 13 -571 63 -290 72 -516 172 -777 344 l-108 72 141 10 c131 9 143 12 161 34 10 13 19 36 19 53 0 35 -40 78 -72 78 -13 0 -128 -5 -257 -10 -220 -9 -236 -11 -258 -32 -14 -13 -23 -33 -23 -52 0 -38 117 -453 136 -483 31 -49 84 -53 124 -11 26 28 25 46 -6 152 -14 48 -24 91 -22 96 2 4 50 -24 108 -62 132 -88 381 -212 531 -265 775 -274 1605 -174 2283 275 614 406 1017 1049 1122 1787 23 157 26 521 6 660 -43 301 -120 553 -248 813 -77 155 -89 175 -119 188 -41 17 -34 17 -65 1z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <h3>Rénovation</h3>
+                            <p>Envie de changement? Faites appel à nos experts plombiers pour s'occuper de vos travaux
+                                de rénovation. Cuisines, salles de bains, nous réalisons tous vos projets.</p>
+                            <Link to={'/services/canalisations-et-egouts'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services de rénovation
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -83,98 +203,7 @@ export default function HomeServices() {
                             </Link>
                         </div>
                     </div>
-                    <div className={styles.homeServicesServiceContainer}>
-                        <StaticImage
-                            src='https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image-small.webp'
-                            alt="Image de fond"
-                            style={{position: 'absolute'}}
-                            className='background-image'
-                        />
-                        <div className={styles.homeServicesService}>
-                            <div className={styles.homeServicesServiceIcon}>
-                                <svg viewBox="0 0 48 48">
-                                    <path
-                                        d="M24,46A22,22,0,1,0,2,24,21.9,21.9,0,0,0,24,46ZM24,6A18,18,0,1,1,6,24,18.1,18.1,0,0,1,24,6Z"
-                                        fill="f4f4f4"/>
-                                    <path d="M24,28a2,2,0,0,0,2-2V14a2,2,0,0,0-4,0V26A2,2,0,0,0,24,28Z"/>
-                                    <circle cx="24" cy="34" r="2"/>
-                                </svg>
 
-                            </div>
-                            <h3>Dépannage et maintenance</h3>
-                            <p>Notre équipe d'électriciens à Nîmes intervient rapidement pour résoudre vos problèmes
-                                électriques. Qu'il s'agisse d'une panne de courant, d'un disjoncteur défectueux ou d'un
-                                équipement endommagé, nous résoudrons votre problème. Nous assurons également la
-                                maintenance
-                                préventive de vos installations électriques pour prévenir les pannes et garantir leur
-                                bon
-                                fonctionnement.</p>
-                            <Link to={'/services/depannage-et-maintenance'}
-                                  className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
-                                Voir nos services de dépannage
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path
-                                        d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"></path>
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className={styles.homeServicesServiceContainer}>
-                        <StaticImage
-                            src='https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image-small.webp'
-                            alt="Image de fond"
-                            style={{position: 'absolute'}}
-                            className='background-image'
-                        />
-                        <div className={styles.homeServicesService}>
-                            <div className={styles.homeServicesServiceIcon}>
-                                <svg viewBox="0 0 512 512">
-                                    <path className="st0"
-                                          d="M428.215,172.215c0.008-47.522-19.292-90.648-50.445-121.777C346.649,19.293,303.515-0.007,256,0   c-47.514-0.007-90.648,19.293-121.769,50.446c-31.153,31.121-50.454,74.247-50.446,121.769   c-0.008,31.786,8.673,61.634,23.754,87.181h-0.008c0.016,0.032,0.048,0.064,0.064,0.096c0.04,0.064,0.065,0.128,0.104,0.192   l0.016-0.007c10.98,19.436,26.7,34.724,38.945,48.835c6.167,7.056,11.452,13.751,15,20.014c3.572,6.295,5.382,11.908,5.502,17.53   v95.421c0.008,29.44,23.858,53.296,53.305,53.304h7.64C233.312,504.96,243.787,512,256,512c12.213,0,22.688-7.04,27.894-17.218   h7.64c29.447-0.008,53.296-23.865,53.304-53.304v-95.414v-0.008c0.12-5.622,1.93-11.236,5.502-17.53   c5.302-9.419,14.592-19.709,24.762-30.914c10.074-11.179,20.982-23.352,29.191-37.936l0.008,0.007   c0.032-0.048,0.056-0.111,0.088-0.16c0.024-0.048,0.056-0.08,0.08-0.128h-0.008C419.542,233.849,428.223,204.001,428.215,172.215z    M311.828,461.771c-5.23,5.214-12.325,8.401-20.294,8.409h-71.068c-7.969-0.008-15.064-3.195-20.294-8.409   c-5.213-5.23-8.401-12.333-8.409-20.294v-5.326l120.128,25.54C311.868,461.715,311.852,461.747,311.828,461.771z M320.237,441.477   c0,1.754-0.216,3.452-0.513,5.11l-127.96-27.205v-33.524l128.473,27.316V441.477z M320.237,396.397L191.764,369.08V358.1h128.473   V396.397z M383.143,247.142l-0.104,0.169l-0.064,0.112c-8.505,15.408-22.92,29.848-36.159,44.904   c-6.607,7.576-12.918,15.361-17.867,24.034c-3.003,5.286-5.39,11.036-6.935,17.13H189.986c-1.546-6.102-3.932-11.844-6.944-17.13   c-7.432-12.982-17.867-24.081-27.893-35.246c-10.059-11.1-19.733-22.159-26.124-33.692l-0.08-0.128l-0.089-0.152   c-13.005-21.959-20.462-47.514-20.47-74.928c0.008-40.803,16.506-77.626,43.238-104.374C178.374,41.1,215.197,24.61,256,24.602   C296.804,24.61,333.627,41.1,360.375,67.84c26.732,26.748,43.23,63.571,43.238,104.374   C403.605,199.628,396.149,225.183,383.143,247.142z"/>
-                                </svg>
-                            </div>
-                            <h3>Éclairage</h3>
-                            <p>Nous vous proposons des solutions d'éclairage innovantes et économiques pour votre
-                                intérieur
-                                et votre extérieur.</p>
-                            <Link to={'/services/eclairage'}
-                                  className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
-                                Voir nos services en éclairage
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path
-                                        d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"></path>
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className={styles.homeServicesServiceContainer}>
-                        <StaticImage
-                            src='https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image-small.webp'
-                            alt="Image de fond"
-                            style={{position: 'absolute'}}
-                            className='background-image'
-                        />
-                        <div className={styles.homeServicesService}>
-                            <div className={styles.homeServicesServiceIcon}>
-                                <svg viewBox="0 0 16 16">
-                                    <path
-                                        d="m 8 1.992188 c -2.617188 0 -5.238281 0.933593 -7.195312 2.808593 l -0.496094 0.480469 c -0.3984378 0.378906 -0.410156 1.011719 -0.03125 1.410156 c 0.382812 0.398438 1.015625 0.410156 1.414062 0.03125 l 0.5 -0.476562 c 3.085938 -2.957032 8.53125 -2.957032 11.617188 0 l 0.5 0.476562 c 0.398437 0.378906 1.03125 0.367188 1.414062 -0.03125 c 0.378906 -0.398437 0.367188 -1.03125 -0.03125 -1.410156 l -0.496094 -0.484375 c -1.957031 -1.871094 -4.578124 -2.804687 -7.195312 -2.804687 z m -0.03125 4.007812 c -1.570312 0.011719 -3.128906 0.628906 -4.207031 1.8125 l -0.5 0.550781 c -0.179688 0.195313 -0.277344 0.453125 -0.261719 0.71875 c 0.011719 0.265625 0.128906 0.515625 0.328125 0.695313 c 0.195313 0.179687 0.453125 0.273437 0.71875 0.257812 c 0.265625 -0.011718 0.515625 -0.128906 0.695313 -0.328125 l 0.496093 -0.546875 c 1.277344 -1.402344 4.160157 -1.496094 5.523438 0.003906 l 0.5 0.542969 c 0.175781 0.199219 0.425781 0.316407 0.691406 0.328125 c 0.265625 0.015625 0.523437 -0.078125 0.722656 -0.257812 c 0.195313 -0.179688 0.3125 -0.429688 0.324219 -0.695313 c 0.011719 -0.261719 -0.082031 -0.523437 -0.261719 -0.71875 l -0.5 -0.546875 c -1.121093 -1.234375 -2.703125 -1.828125 -4.269531 -1.816406 z m 0.03125 4 c -0.511719 0 -1.023438 0.195312 -1.414062 0.585938 c -0.78125 0.78125 -0.78125 2.046874 0 2.828124 s 2.046874 0.78125 2.828124 0 s 0.78125 -2.046874 0 -2.828124 c -0.390624 -0.390626 -0.902343 -0.585938 -1.414062 -0.585938 z m 0 0"/>
-                                </svg>
-                            </div>
-                            <h3>Domotique et objets connectés</h3>
-                            <p>Nous vous proposons des systèmes de domotique pour faciliter la gestion de votre
-                                énergie et
-                                améliorer votre confort.</p>
-                            <Link to={'/services/domotique-et-objets-connectes'}
-                                  className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
-                                Voir nos services en domotique
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path
-                                        d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"></path>
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

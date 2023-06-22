@@ -149,10 +149,10 @@
     margin-bottom: 25px;
 }
 
-.home-services-service-container:nth-child(2) .home-services-service-icon svg {
-    fill: white;
-    stroke: var(--primary-accent-color);
-}
+/*.home-services-service-container:nth-child(2) .home-services-service-icon svg {*/
+/*    fill: white;*/
+/*    stroke: var(--primary-accent-color);*/
+/*}*/
 
 .home-services-service-container h4 {
     font-size: 1.6rem;

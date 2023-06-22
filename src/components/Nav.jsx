@@ -16,7 +16,7 @@ export default function Nav() {
             <div className={styles.navMain}>
                 <Link to={'/'} className={styles.navLogoContainer}>
                     <StaticImage
-                        src="https://res.cloudinary.com/dg8awj55m/image/upload/v1683643626/website-lending/electricien-nimes/logos/logo-main.png"
+                        src="https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1686435004/website-lending/plombier-meudon/logos/logo_main.png"
                         alt="Logo Electricien Nîmes"
                         height={45}
                     />
@@ -26,16 +26,11 @@ export default function Nav() {
                         <Link to={'/services'} onClick={handleDisplayMobileNav}
                               className={styles.navMainNavigationTitle}>Services</Link>
                         <ul className={styles.navMainNavigationDropdownList}>
-                            <li><Link to={'/services/installation-electrique'} onClick={handleDisplayMobileNav}>Installation</Link>
-                            </li>
-                            <li><Link to={'/services/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation
-                                et mise aux normes</Link></li>
-                            <li><Link to={'/services/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage
-                                et
-                                maintenance</Link></li>
-                            <li><Link to={'/services/eclairage'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
-                            <li><Link to={'/services/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique
-                                et objets connectés</Link></li>
+                            <li><Link to={'/services/installation'} onClick={handleDisplayMobileNav}>Installation</Link></li>
+                            <li><Link to={'/services/reparation-et-depannage'} onClick={handleDisplayMobileNav}>Réparation et Dépannage</Link></li>
+                            <li><Link to={'/services/entretien-et-maintenance'} onClick={handleDisplayMobileNav}>Entretien et Maintenance</Link></li>
+                            <li><Link to={'/services/nettoyage'} onClick={handleDisplayMobileNav}>Nettoyage</Link></li>
+                            <li><Link to={'/services/renovation'} onClick={handleDisplayMobileNav}>Rénovation</Link></li>
                         </ul>
                     </li>
                     <li className={styles.navMainNavigationDropdown}>
